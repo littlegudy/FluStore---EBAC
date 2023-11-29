@@ -20,13 +20,15 @@ section h3 {
 header,
 section h2,
 section h3,
-form button {
+form button,
+.item-a-venda button {
     font-family: 'Bungee', sans-serif;
 }
 
 body,
 input,
-textarea {
+textarea,
+p {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -56,8 +58,6 @@ section .container {
 
 
 .container .front-store {
-    width: 640px;
-    height: 480px;
     margin-right: 32px;
 }
 
@@ -89,4 +89,99 @@ section .container {
 
 .socialmedia li a {
     text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    background-color: #831d1c;
+    color: #fff;
+    border: none;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #00613c;
+}
+
+form button:hover,
+.item-a-venda button:hover {
+    cursor: pointer;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+#store-location .container {
+    display: block;
+    text-align: center;
+}
+
+#store-location .container iframe {
+    width: 80%;
+}
+
+#products .container {
+    display: block;
+    text-align: justify;
+}
+
+#products img {
+    width: 225.5px;
+    height: 225.5px;
+}
+
+#products h2 {
+    text-align: center;
+}
+
+.products-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.products-methods img {
+    margin: 15px 0 15px 0;
+
+}
+
+.item-a-venda p:first-of-type {
+    font-weight: bold;
+}
+
+.item-a-venda button {
+    border: none;
+    background-color: #831d1c;
+    color: #fff;
+    padding-right: 50%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+
+footer {
+    background-color: #831d1c;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
 }
