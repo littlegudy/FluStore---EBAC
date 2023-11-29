@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #831d1c;
+    color: #fff;
+
+}
+
+header h1,
+section h2,
+section h3 {
+    font-weight: normal;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', sans-serif;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container .front-store {
+    width: 640px;
+    height: 480px;
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px 0;
+    color: #00613c;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.socialmedia img {
+    height: 24px;
+}
+
+.socialmedia li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.socialmedia li a {
+    text-decoration: none;
+}
